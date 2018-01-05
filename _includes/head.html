@@ -5,9 +5,9 @@
 
   <title>
     {% if page.title == "About" %}
-      {{ page.title }} {{ site.title }}
+      {{ page.title }} {{ site.me.name }}
     {% else %}
-      {{ site.title }}'s {{ page.title }}
+      {{ site.me.name }}'s {{ page.title }}
     {% endif %}
   </title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
