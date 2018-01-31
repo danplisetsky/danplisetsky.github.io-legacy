@@ -4,11 +4,16 @@ layout: default
 
 <div class="home">
 
-  {{ content }}
-
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <ul class="tags">
+    {% for tag in site.tags %}
       <li>
+        <a href="/?{{ tag | first | url_encode}}">{{ tag | first }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <ul class="post-list">
+      {% for post in site.posts %}
+      <li data-tags="{{ post.tags | join: " " }}">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
@@ -20,5 +25,7 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+  <script src="{{ "/assets/filter-by-tag.js " | relative_url }}"></script>
 
 </div>
