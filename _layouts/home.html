@@ -5,6 +5,7 @@ layout: default
 <div class="home">
 
   <ul class="tags">
+    <p>Tags</p>
     {% for tag in site.tags %}
       <li>
         <a href="/?{{ tag | first | url_encode}}">{{ tag | first }}</a>

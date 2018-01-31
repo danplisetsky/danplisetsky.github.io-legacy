@@ -1,0 +1,15 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.tags {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+ul.post-list {
+    grid-row: 1;
+    grid-column: 1;
+}
+
