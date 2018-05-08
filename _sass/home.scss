@@ -12,3 +12,21 @@ ul.post-list {
     grid-row: 1;
     grid-column: 2;
 }
+
+.post-title {
+    margin-bottom: 0
+}
+
+.post-tags {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.tag {
+    font-size: smaller;
+    border: 1px dotted grey;
+    margin-right: 5px;
+    background-color: #d3dfe9;
+    color: $grey-color-dark !important;
+}
