@@ -1,9 +1,8 @@
 ---
-layout: page
 title: About
 permalink: /about/
 ---
-
+blabla
 site pages:
 
 {{ site.pages | map: "path" }}

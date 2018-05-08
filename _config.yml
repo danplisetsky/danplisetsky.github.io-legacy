@@ -11,8 +11,21 @@ me:
   rss: "/404/"
   rss_title: stay apprised of the upcoming posts
 
+strict_front_matter: true
 
-
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
   
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
