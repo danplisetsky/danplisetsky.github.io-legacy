@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-    {% if page.title == "About" %}
-      {{ page.title }} {{ site.me.name }}
+    {% if page.section == "About" %}
+      {{ page.section }} {{ site.me.name }}
     {% else %}
-      {{ site.me.name }}'s {{ page.title }}
+      {{ site.me.name }}'s {{ page.section }}
     {% endif %}
   </title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">

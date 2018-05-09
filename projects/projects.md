@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+section: Projects
 permalink: /projects/
 ---
 projs go here
