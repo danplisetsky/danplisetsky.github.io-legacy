@@ -46,7 +46,7 @@ plugins:
   - jekyll-paginate
 
 #pagination optioms
-paginate: 2
+paginate: 3
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

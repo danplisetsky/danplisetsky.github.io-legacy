@@ -1,4 +1,4 @@
-.home {
+.home, .filtered-posts {
     display: grid;
     grid-template-columns: 1fr auto;
 }
@@ -29,4 +29,9 @@ ul.post-list {
     margin-right: 5px;
     background-color: #d3dfe9;
     color: $grey-color-dark !important;
+}
+
+.pagination {
+    grid-row: 2;
+    grid-column: 1;
 }
