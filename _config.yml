@@ -8,7 +8,7 @@ me:
   github_title: check out the source code
   medium: https://medium.com/@danielplisetsky
   medium_title: join the discussion
-  rss: "/404/"
+  rss: "/feed.xml"
   rss_title: stay apprised of the upcoming posts
 
 strict_front_matter: true
