@@ -11,35 +11,39 @@ layout: default
       <li data-tags="{{ post.tags | join: " " }}">
 
         {% include post.html %}
-        
+
         {{ post.excerpt | markdownify }}
       </li>
     {% endfor %}
   </ul>
 
-  <!-- Pagination links -->
+  <!-- Pagination links -->  
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
+      <a class="pagination-item pagination-wrapper" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <div class="svg-icon arrow-left"></div>
+      Newer
+    </a>    
     {% endif %}
-  
+
+    <div class="pagination-item pagination-wrapper">
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
-        <em>{{ page }}</em>
+        <em class="pagination-item">{{ page }}</em>
       {% elsif page == 1 %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        <a class="pagination-item" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
       {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        <a class="pagination-item" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
     {% endfor %}
-  
+    </div>
+
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
+      <a class="pagination-item pagination-wrapper" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        Older
+        <div class="svg-icon arrow-right"></div>
+      </a>
     {% endif %}
   </div>
   {% endif %}
