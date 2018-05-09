@@ -9,19 +9,9 @@ layout: default
   <ul class="post-list">
       {% for post in paginator.posts %}
       <li data-tags="{{ post.tags | join: " " }}">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2 class="post-title">
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.name | escape }}</a>
-        </h2>
-
-        <div class="post-tags">
-          {% for tag in post.tags %}
-            <a class="tag" href="/?{{ tag | url_encode }}">{{ tag }}</a>
-          {% endfor %}
-        </div>
-
+        {% include post.html %}
+        
         {{ post.excerpt | markdownify }}
       </li>
     {% endfor %}
