@@ -13,6 +13,8 @@ me:
 
 strict_front_matter: true
 
+# default values for pages and posts
+
 defaults:
   -
     scope:
@@ -41,6 +43,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+#pagination optioms
+paginate: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
