@@ -173,12 +173,6 @@ p.copyright {
   margin: auto;
 }
 
-p.resume-maker-link {
-  @media not all and (pointer: fine) {
-    display: none;
-  }
-}
-
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
