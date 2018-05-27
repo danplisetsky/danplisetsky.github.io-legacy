@@ -1,13 +1,3 @@
-.subtitle-wrapper {
-  border-top: 1px solid $grey-color-light;    
-}
-
-.subtitle-text {
-    text-align: center;
-    color: $grey-color;
-    margin: 5px auto;
-}
-
 .home, .filtered-posts {
     display: grid;
     grid-template-columns: 1fr auto;
