@@ -58,12 +58,13 @@ a.site-title:hover {
 
 .site-title-section:before {
   @include media-query-not($on-mobile) {
-    content: "\00a0~ ";
+    content: "\00a0-> ";
   }
 }
 
 .subtitle-text {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
   color: $grey-color;
   margin: 5px auto;
   @include media-query-not($on-mobile) {
@@ -99,12 +100,13 @@ a.site-title:hover {
   @include media-query-not($on-mobile) {
     .page-link {
       opacity: 0.6;
+      font-family: "Open Sans", sans-serif;
     }
 
     .page-link:hover {
       text-decoration: none;
       opacity: 1;
-      font-weight: bolder;
+      font-weight: bold;
     }
   }
 
