@@ -5,19 +5,20 @@ permalink: /tag/
 ---
 
 <div class="filtered-posts">
-    
-    {% include tags.html %}
-    
-    <ul class="post-list">
-        {% for post in site.posts %}
-        <li data-tags="{{ post.tags | join: " " }}">
-            
-          {% include post.html %}
-            
-        </li>
-      {% endfor %}
-    </ul>
+
+{% include tags.html %}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li data-tags="{{ post.tags | join: " " }}">
+
+      {% include post.html %}
+
+    </li>
+    {% endfor %}
+
+  </ul>
 
 </div>
 
-<script src="{{ "/assets/filter-by-tag.js " | relative_url }}"></script>
+<script src="{{ "/assets/javascripts/filter-by-tag.js" | relative_url }}"></script>
