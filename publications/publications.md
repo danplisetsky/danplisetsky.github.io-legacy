@@ -6,6 +6,7 @@ permalink: /publications/
 
 ### In Russian
 
+{:.publications}
 | --- | --- |
 | [«В Татьяну вселился бес!»](http://jewish.ru/ru/interviews/articles/186110/) | Интервью с Борисом Грицем |
 | [Город с первого взгляда](http://jewish.ru/ru/columnists/articles/184597/) | Короткий рассказ про любовь и Тель-Авив. И любовь в Тель-Авиве |
