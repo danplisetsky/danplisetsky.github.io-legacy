@@ -97,6 +97,18 @@ a.site-title:hover {
   }
 
   @include media-query-not($on-mobile) {
+    .page-link {
+      opacity: 0.6;
+    }
+
+    .page-link:hover {
+      text-decoration: none;
+      opacity: 1;
+      font-weight: bolder;
+    }
+  }
+
+  @include media-query-not($on-mobile) {
     grid-area: navigation;
   }
 
