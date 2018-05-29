@@ -37,6 +37,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 
 #pagination optioms
 paginate: 3
