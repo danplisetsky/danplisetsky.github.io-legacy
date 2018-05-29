@@ -4,8 +4,7 @@ section: Projects
 permalink: /projects/
 ---
 
-{:.projects}
-
+{:.listof}
 | --- | --- |
 | [resume-maker](https://danplisetsky.github.io/resume-maker/) | An interactive resume-making tool written in JavaScript using functional programming principles |
 | [iTunesSearch](https://github.com/danplisetsky/iTunesSearch) | Contributed to a C# library that acts as a .NET wrapper for the [iTunes search API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) |
