@@ -14,7 +14,7 @@ The former's become a job, the latter a hobby. Both I'm far from being proficien
 **When it comes to software development**, I'm mainly interested in:
 
 * pragmatical functional programming
-* reconciling front-end development with the functional approach
+* reconciling frontend development with the functional approach
 * techniques for managing complexity
 * technologies that unify development for several platforms by abstracting common functionality (e.g., React Native and Xamarin)
 
