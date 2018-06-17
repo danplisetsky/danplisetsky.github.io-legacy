@@ -21,8 +21,8 @@ $grey-color-dark: darken($grey-color, 25%) !default;
 // Width of the content area
 $content-width: 800px !default;
 
-$on-mobile: 460px !default;
-$on-palm: 600px !default;
+$on-mobile: 500px !default;
+// $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
 // Use media queries like this:
@@ -49,12 +49,7 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting",
-  "svg-icons",
-  "home",
-  "tables",
-  "about";
+@import "minima/base", "minima/layout", "minima/syntax-highlighting",
+  "svg-icons", "home", "tables", "about";
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
