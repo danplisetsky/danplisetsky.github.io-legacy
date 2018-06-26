@@ -49,13 +49,21 @@ I don't know about you, but that already looks kinda complex to me. So let's sub
 
 ```javascript
 square(add(3, 4))
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 square(3+4)
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 square(7)
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 7 * 7
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 49
 ```
 
@@ -69,13 +77,21 @@ Well, that's not entirely true. The substitution that we just saw works for stri
 
 ```javascript
 square(add(3, 4))
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 add(3,4) * add(3,4)
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 (3+4) * (3+4)
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 7 * 7
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 49
 ```
 
@@ -109,23 +125,37 @@ And now let's substitute.
 ```javascript
 factorial(4)
 // is 4 equal to 0 or 1? Nah. Hence, we'll go with the second option:
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 4 * factorial(3)
 // Now we evaluate factorial(3). Is 3 equal to 0 or 1? Nope
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 4 * (3 * factorial(2))
 // I add the parentheses here to illustrate that the code inside them is going to be evaluated first.
 // We'll see the significance of it soon. In the meantime, 2 is still not 1. Or 0, for that matter
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 4 * (3 * (2 * factorial(1)))
 // Finally, we've reached -- you got it -- the base case. As per definition, we humbly return 1
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 4 * (3 * (2 * 1))
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 4 * (3 * 2)
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 4 * 6
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 24
 ```
 
@@ -179,14 +209,22 @@ Ok, since we're kinda confused as to what this function is going to do (differen
 ```javascript
 factorialIter(4) // since we're only passing one argument,
 //the second parameter, acc, will take its default value, which is 1
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 factorialIter(3, 4) // 1 * 4 ➡ 4
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 factorialIter(2, 12) // 4 * 3 ➡ 12
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 factorialIter(1, 24)
 // The base case is reached
+
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
+
 24
 ```
 
