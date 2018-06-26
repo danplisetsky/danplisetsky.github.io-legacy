@@ -119,6 +119,7 @@ factorial(4)
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
 4 * (3 * (2 * factorial(1)))
 // Finally, we've reached -- you got it -- the base case. As per definition, we humbly return 1
+⬇⬇⬇⬇⬇⬇⬇⬇⬇
 4 * (3 * (2 * 1))
 ⬇⬇⬇⬇⬇⬇⬇⬇⬇
 4 * (3 * 2)
