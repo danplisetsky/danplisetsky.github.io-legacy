@@ -114,7 +114,7 @@ n\cdot Factorial(n-1), & \text{otherwise}\\
 \end{array}\right\}
 $$
 
-That definition reads, if the input to the factorial function is 0 or 1, the answer is 1. If not, the answer is the result of multiplying the input by what the factorial function applied to the input minus 1 results to. Abandon all thought and code it at once!
+The definition reads, if the input to the factorial function is 0 or 1, the answer is 1. If not, the answer is the result of multiplying the input by what the factorial function applied to the input minus 1 results to. Abandon all thought and code it at once!
 
 <script src="https://gist.github.com/danplisetsky/412c9d1c9eaad7b3cb94d5f70f3f66d1.js"></script>
 
