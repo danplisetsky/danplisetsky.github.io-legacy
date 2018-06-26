@@ -1,7 +1,6 @@
 ---
 section: About
 permalink: /about/
-redirect_from: "/"
 ---
 
 **Two things** I've come to enjoy the most are:
