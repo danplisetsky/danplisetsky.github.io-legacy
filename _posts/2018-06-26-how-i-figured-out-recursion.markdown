@@ -296,7 +296,7 @@ And this is it! All that's left is to fit the functions together:
 print(map(fizzBuzz, range(100)));
 ```
 
-The best part is, the solution is scalable and lends itself to further abstraction. The `map` function can be expressed in terms of a right fold function (`reduceRight` in javascript), `print` in terms of `forEach`. Instead of checking for modulo in `fizzBuzz` we could pass a hash table of rules for substituting numbers with strings. And so on. There's all sorts of possibilities, and by using specialized functions and recursion we end up with elegant and reusable code.
+The best part is, the solution is scalable and lends itself to further abstraction. The `map` function can be expressed in terms of a right fold function (`reduceRight` in JavaScript), `print` in terms of `forEach`. Instead of checking for modulo in `fizzBuzz` we could pass a hash table of rules for substituting numbers with strings. And so on. There's all sorts of possibilities, and by using specialized functions and recursion we end up with elegant and reusable code.
 
 ## Conclusion
 
