@@ -266,7 +266,7 @@ We'll illustrate how recursion helps us operate on elements of a list by solving
 
 > Write a program that prints the numbers from 1 to 100. If it’s a multiple of 3, it should print “Fizz”. If it’s a multiple of 5, it should print “Buzz”. If it’s a multiple of 3 and 5, it should print “Fizz Buzz”.
 
-Let's try to immediately think about the problem in terms of data structures. What we're effectively asked to do is, given a list of numbers from 1 to 100, transform it into a list of strings according to certain rules. We will need:
+Let's try to immediately think about the problem in terms of data structures. What we're effectively asked to do is, given a list of numbers from 1 to 100, transform it into a list of strings according to certain rules. We will need to:
 
 - Enumerate the list
 - Transform its elements one by one
