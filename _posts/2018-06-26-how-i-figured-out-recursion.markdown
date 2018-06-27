@@ -300,7 +300,7 @@ The best part is, the solution is scalable and lends itself to further abstracti
 
 ## Conclusion
 
-There's plenty more ideas left unexplored in this brief overview (in fact, the book that helped me get my head around recursion and many other concepts is [Structure and Interpretation of Computer Programs][sicp-book], which I cannot recommend enough). The most salient, in my mind, is the idea of functional programming that leverages recursion and promotes reusability and specialization of functions. I hope that now, armed with the power of recursion, you're more than adequately equipped to dive deeper into functional programming and other techniques for managing complexity, which is software development is really all about.
+There's plenty more ideas left unexplored in this brief overview (in fact, the book that helped me get my head around recursion and many other concepts is [Structure and Interpretation of Computer Programs][sicp-book], and I cannot recommend enough). The most salient, in my mind, is the idea of functional programming that leverages recursion and promotes reusability and specialization of functions. I hope that now, armed with the power of recursion, you're more than adequately equipped to dive deeper into functional programming and other techniques for managing complexity, which is software development is really all about.
 
 [recursion-image]: https://c1.staticflickr.com/3/2446/3620061163_ba9f8d5031_z.jpg?zz=1
 [fizz-buzz]: https://hackernoon.com/why-im-still-using-fizz-buzz-to-hire-software-developers-7e31a89a4bbf
