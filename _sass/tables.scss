@@ -1,3 +1,8 @@
+table.listof {
+  margin-bottom: $spacing-unit / 2;
+  width: 100%;
+}
+
 table.listof tr:nth-child(even) {
   background-color: #f2f2f2;
 }

@@ -4,6 +4,20 @@ section: Publications
 permalink: /publications/
 ---
 
+### In English
+
+{% for post in site.posts %}
+
+{% if post.publication %}
+
+{:.listof}
+| --- | --- |
+| [{{ post.title }}]({{ post.publication-link}}) | {{ post.publication }} |
+
+{% endif %}
+
+{% endfor %}
+
 ### In Russian
 
 {:.listof}
