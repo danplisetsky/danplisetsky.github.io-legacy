@@ -11,8 +11,8 @@ permalink: /publications/
 {% if post.publication %}
 
 {:.listof}
-| --- | --- |
-| [{{ post.title }}]({{ post.publication-link}}) | {{ post.publication }} |
+| --- | --- | --- |
+| [{{ post.title }}]({{ post.publication-link}}) | @ | {{ post.publication }} |
 
 {% endif %}
 
