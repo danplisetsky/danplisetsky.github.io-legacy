@@ -22,7 +22,7 @@ table.listof tr:nth-child(even) {
 }
 
 @include media-query($on-mobile) {
-  table.listof tr > td:not(:last-child) {
+  table.listof tr > td:first-child {
     border-right: 1px dotted black;
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
