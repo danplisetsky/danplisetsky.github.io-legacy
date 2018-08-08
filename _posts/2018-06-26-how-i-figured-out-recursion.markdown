@@ -288,7 +288,7 @@ And 3:
 
 <script src="https://gist.github.com/danplisetsky/50d91adc42c90c7a3ca899c302d60e77.js"></script>
 
-We'll also need a convenient way to generate the initial list. Remember, the built-int methods have vanished from our memory. But that's not going to stop us:
+We'll also need a convenient way to generate the initial list. Remember, the built-in methods have vanished from our memory. But that's not going to stop us:
 
 <script src="https://gist.github.com/danplisetsky/99b2daa5f9bf00bd4466d2b6bb9ba581.js"></script>
 
