@@ -1,4 +1,4 @@
-title: daniel-plisetsky
+ctitle: daniel-plisetsky
 
 me:
   name: Daniel Plisetsky
@@ -6,6 +6,8 @@ me:
   email_title: shoot me a letter
   github: https://github.com/danplisetsky
   github_title: check out the source code
+  linkedin: https://www.linkedin.com/in/daniel-plisetsky/
+  linkedin_title: connect with me
   medium: https://medium.com/@danielplisetsky
   medium_title: join the discussion
   rss: "/feed.xml"
@@ -16,19 +18,17 @@ strict_front_matter: true
 # default values for pages and posts
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  
+
 description: >- # this means to ignore newlines until "baseurl:"
   The personal website of Daniel Plisetsky, software developer and freelance journalist
 baseurl: "" # the subpath of your site, e.g. /blog
