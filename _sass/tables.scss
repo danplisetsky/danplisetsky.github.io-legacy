@@ -7,6 +7,10 @@ table.listof tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
+table.listof a {
+  color: $brand-color;
+}
+
 @include media-query-not($on-mobile) {
   table.listof {
     border-collapse: collapse;
