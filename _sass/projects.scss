@@ -1,0 +1,52 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects > h3 {
+  margin-bottom: $spacing-unit;
+  border-bottom: 1px solid $grey-color-light;
+}
+
+#own-projects {
+  order: 1;
+}
+
+#contributions {
+  order: 3;
+  margin-top: $spacing-unit;
+}
+
+.project.own-true {
+  order: 2;
+}
+
+.project.own-false {
+  order: 4;
+}
+
+.project:not(:last-child) {
+  margin-bottom: $spacing-unit;
+}
+
+.project-name {
+  @include relative-font-size(1.5);
+  margin-bottom: 0px;
+}
+
+a.project-name {
+  color: $brand-color;
+}
+
+.project-description {
+  color: $grey-color;
+}
+
+.project-stack {
+  display: flex;
+}
+
+.project-stack > p {
+  font-style: italic;
+  margin-left: $spacing-unit / 3;
+}
