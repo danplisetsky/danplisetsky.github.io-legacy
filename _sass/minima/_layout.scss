@@ -241,9 +241,10 @@ p.copyright {
   color: $grey-color;
 }
 
-.post-link {
+a.post-link {
   display: block;
   @include relative-font-size(1.5);
+  color: $brand-color;
 }
 
 /**
