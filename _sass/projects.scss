@@ -46,6 +46,11 @@ a.project-name {
   display: flex;
 }
 
+.project-stack > .svg-icon {
+  flex-shrink: 0;
+  flex-basis: 24px;
+}
+
 .project-stack > p {
   font-style: italic;
   margin-left: $spacing-unit / 3;
