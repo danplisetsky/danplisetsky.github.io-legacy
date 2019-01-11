@@ -101,12 +101,14 @@ a.site-title:hover {
     .page-link {
       opacity: 0.6;
       font-family: "Open Sans", sans-serif;
+      transition: all 0.5s;
     }
 
     .page-link:hover {
       text-decoration: none;
       opacity: 1;
-      font-weight: bold;
+      color: $background-color;
+      background-color: $text-color;
     }
   }
 
