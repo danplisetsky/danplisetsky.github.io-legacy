@@ -22,6 +22,7 @@ permalink: /publications/
 
 {:.listof}
 | --- | --- |
+| [700 ракет и один лифт](https://jewish.ru/ru/columnists/articles/189674/) | Колонка про жизнь в военное время |
 | [Аскорбинка от рака](https://jewish.ru/ru/stories/literature/188924/) | Рассказ про рейки |
 | [Зовите меня Злостным Преступником](http://jewish.ru/ru/columnists/articles/186835/) | Короткий рассказ о поездке в Харьков |
 | [«В Татьяну вселился бес!»](http://jewish.ru/ru/interviews/articles/186110/) | Интервью с Борисом Грицем |
