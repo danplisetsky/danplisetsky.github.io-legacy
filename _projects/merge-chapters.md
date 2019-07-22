@@ -1,7 +1,7 @@
 ---
 name: merge-chapters-md
 link: https://www.npmjs.com/package/merge-chapters-md
-description: Merge markdown chapters into a single markdown file
+description: Merges markdown chapters into a single markdown file
 stack: JavaScript, Node.js, Jasmine, Travis CI
 own: true
 date: 2019-07-19
