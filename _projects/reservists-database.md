@@ -1,7 +1,7 @@
 ---
 name: Reservists' Database
 description: An app to manage reservists
-stack: C#, WPF
+stack: C#, WPF, MSTest
 own: true
 date: 2017-05-01
 ---

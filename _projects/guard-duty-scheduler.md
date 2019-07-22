@@ -1,7 +1,7 @@
 ---
 name: Guard Duty Scheduler
 description: An app to create fair guard duty schedule
-stack: C#, WPF
+stack: C#, WPF, MSTest
 own: true
 date: 2017-10-01
 ---
