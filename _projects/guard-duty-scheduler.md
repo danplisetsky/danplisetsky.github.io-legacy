@@ -6,4 +6,6 @@ own: true
 date: 2017-10-01
 ---
 
-A Windows desktop app written in C# using WPF, MVVM and TDD. Given a list of soldiers with relevant info it would automatically create a fair and balanced &copy; guard duty schedule for the specified period
+- A Windows desktop app written in C# using WPF, MVVM and TDD
+- Used a rule based greedy algorithm to calculate a close to optimal solution for monthly rosters
+- Worked with my team leader to prototype and design the user interface for the app
