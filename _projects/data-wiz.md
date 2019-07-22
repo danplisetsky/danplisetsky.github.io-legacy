@@ -6,4 +6,7 @@ own: true
 date: 2018-04-01
 ---
 
-A web app that visualizes a Facebook page's statistics. It's written in JavaScript using [Node.js](https://nodejs.org/) and [Express](http://expressjs.com/) on the backend and [D3.js](https://d3js.org/) on the frontend. It was deployed on Heroku.
+A web app that visualizes a Facebook page's statistics.
+
+- The backend is built with Node.js and Express and deployed on Heroku, using server side rendering to render application pages
+- The frontend is built with D3.js in order to render time based statistics of Facebook likes, comments, shares and other related metrics
