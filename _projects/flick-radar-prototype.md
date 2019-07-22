@@ -1,5 +1,5 @@
 ---
-name: flick-radar
+name: flick-radar-prototype
 link: https://danplisetsky.github.io/flick-radar/
 description: A prototype movie-tracker app
 stack: JavaScript, Node.js, Express, MongoDB, React.js, Heroku
